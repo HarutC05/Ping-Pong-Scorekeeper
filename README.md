@@ -14,7 +14,7 @@ CSS
 JavaScript
 
 Installation
-- Clone the repository:
+- Clone the repository
 - Open index.html in a browser
 
 Usage
