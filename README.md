@@ -14,8 +14,7 @@ CSS
 JavaScript
 
 Installation
-Clone the repository:
-- git clone https://github.com/yourusername/score-keeper.git
+- Clone the repository:
 - Open index.html in a browser
 
 Usage
