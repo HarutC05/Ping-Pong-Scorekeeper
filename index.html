@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Score Keeper</title>
+</head>
+
+<body>
+    <div class="container1">
+        <div id="text">
+            <b>Ping Pong Score Keeper</b> <br>
+        </div>
+        <img src="https://www.advancedsciencenews.com/wp-content/uploads/2021/08/lisa-keffer-i0kB5B9J8Ds-unsplash.jpg"
+            alt="ping pong picture">
+    </div>
+
+    <div class="container2">
+        <h1><span id="p1Score">0</span> to <span id="p2Score">0</span></h1>
+
+        <p>Use the buttons below to keep score</p>
+
+        <label for="scoreLimit">Choose a Score Limit: </label>
+        <select name="scoreLimit" id="scoreLimit">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select> <br> <br>
+    </div>
+    <div class="buttons">
+        <button id="p1Btn">+1 Player One</button>
+        <button id="p2Btn">+1 Player Two</button>
+        <button id="reset">Reset</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
